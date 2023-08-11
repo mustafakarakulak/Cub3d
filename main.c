@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mkarakul <mkarakul@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mustafakarakulak <mustafakarakulak@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/04 13:02:29 by mkarakul          #+#    #+#             */
-/*   Updated: 2023/07/04 20:16:41 by mkarakul         ###   ########.fr       */
+/*   Updated: 2023/08/11 19:33:13 by mustafakara      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@ void	start_mlx(t_map *map)
 	map->rotate_speed = 0.05;
 	map->img_width = 64;
 	map->img_height = 64;
-	map->x_resolution = 1920;
-	map->y_resolution = 1080;
+	map->x_resolution = 1440;
+	map->y_resolution = 900;
 	map->mlx_ptr = mlx_init();
 	map->mlx_win = mlx_new_window(map->mlx_ptr, map->x_resolution,
 			map->y_resolution, "Cub3d");
