@@ -1,6 +1,6 @@
 NAME        := cub3d
 CC        := gcc
-FLAGS    := -Wall -Wextra -Werror -g
+FLAGS    := -Wall -Wextra -Werror -03
 SRCS        :=      libft/ft_atoi.c \
                           libft/ft_bzero.c \
                           libft/ft_calloc.c \

@@ -6,7 +6,7 @@
 /*   By: mkarakul <mkarakul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/06 20:49:36 by mkarakul          #+#    #+#             */
-/*   Updated: 2022/12/13 12:23:36 by mkarakul         ###   ########.fr       */
+/*   Updated: 2023/08/30 13:43:30 by mkarakul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,6 @@ size_t	ft_strlen(const char *str)
 
 	i = 0;
 	while (str[i])
-	i++;
+		i++;
 	return (i);
 }
